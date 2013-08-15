@@ -1,5 +1,5 @@
 require 'preferences/preference_definition'
-require File.dirname(__FILE__) + '/../app/models/preference'
+require 'preference'
 
 # Adds support for defining preferences on ActiveRecord models.
 # 

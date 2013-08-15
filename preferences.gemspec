@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.homepage          = "http://www.pluginaweek.org"
   s.description       = "Adds support for easily creating custom preferences for ActiveRecord models"
   s.summary           = "Custom preferences for ActiveRecord models"
-  s.require_paths     = ["lib"]
+  s.require_paths     = ["lib", "app/models"]
   s.files             = `git ls-files`.split("\n")
   s.test_files        = `git ls-files -- test/*`.split("\n")
   s.rdoc_options      = %w(--line-numbers --inline-source --title preferences --main README.rdoc)
